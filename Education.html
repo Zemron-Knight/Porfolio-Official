@@ -7,79 +7,70 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-900 text-white font-sans">
+    <div class="max-w-7xl mx-auto p-4 sm:p-6">
+      <header class="bg-gray-800 p-4 rounded-md mb-6">
+        <nav class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+          <ul class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            <li class="cursor-pointer">
+              <a href="index.html" class="block italic">Home</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="Education.html" class="block italic">Education</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="projects.html" class="block italic">Projects</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="#resume" class="block italic">Resume</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <div class="max-w-7xl mx-auto p-6">
-        <header class="bg-gray-800 p-4 rounded-md mb-6">
-          <nav class="flex justify-between items-center">
-            <ul class="flex gap-6">
-                    <li class="cursor-pointer">
-                      <a href="index.html" class="block italic">Home</a>
-                    </li>
-                    <li class="cursor-pointer">
-                      <a href="Education.html" class="block italic">Education</a>
-                    </li>
-                    <li class="cursor-pointer">
-                      <a href="projects.html" class="block italic">Projects</a>
-                    </li>
-                    <li class="cursor-pointer">
-                      <a href="#resume" class="block italic">Resume</a>
-                    </li>
-            </ul>
-          </nav>
-        </header>
-
-
-    <section class="p-6 max-w-6xl mx-auto">
-        <div class="bg-blue-300 text-black p-6 rounded-lg shadow-md">
-            <div class="flex items-center justify-between gap-4">
-
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Ateneo_de_Davao_University_logo.png/263px-Ateneo_de_Davao_University_logo.png" 
-                   alt="ADDU Logo" 
-                   class="w-20 h-20 object-contain rounded-md">
-          
-              <div class="flex-1">
-                <h2 class="text-xl font-bold">Ateneo De Davao University (2023–Present)</h2>
-                <p class="italic">in Information Technology</p>
-                <ul class="mt-3 list-disc list-inside text-sm">
-                  <li>Studied Database, Algorithms, etc.</li>
-                  <li>Courses on C#, Java, Python</li>
-                </ul>
-              </div>
-          
-              <a href="https://www.addu.edu.ph/" 
-                 class="inline-block px-4 py-2 bg-blue-800 text-white text-sm font-semibold rounded-lg shadow-md hover:bg-blue-900 transition duration-200">
-                 Visit Website
-              </a>
+      <section class="p-4 sm:p-6 max-w-6xl mx-auto">
+        <div class="bg-blue-300 text-black p-4 sm:p-6 rounded-lg shadow-md">
+          <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Ateneo_de_Davao_University_logo.png/263px-Ateneo_de_Davao_University_logo.png" 
+                 alt="ADDU Logo" 
+                 class="w-20 h-20 object-contain rounded-md" />
+            
+            <div class="flex-1">
+              <h2 class="text-lg sm:text-xl font-bold">Ateneo De Davao University (2023–Present)</h2>
+              <p class="italic">in Information Technology</p>
+              <ul class="mt-3 list-disc list-inside text-sm">
+                <li>Studied Database, Algorithms, etc.</li>
+                <li>Courses on C#, Java, Python</li>
+              </ul>
             </div>
+  
+            <a href="https://www.addu.edu.ph/" 
+               class="inline-block px-4 py-2 bg-blue-800 text-white text-sm font-semibold rounded-lg shadow-md hover:bg-blue-900 transition duration-200">
+               Visit Website
+            </a>
           </div>
-        
-      </div>
+        </div>
 
-      <h3 class="text-center text-xl font-bold mt-10 mb-4">Certifications</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-
-        <div class="bg-gray-100 text-black rounded-md p-4 shadow">
+        <h3 class="text-center text-xl font-bold mt-10 mb-4">Certifications</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-gray-100 text-black rounded-md p-4 shadow">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/36px-Google_%22G%22_logo.svg.png?20230822192911" class="h-6 mb-2" alt="Google">
             <p class="font-semibold">Python Course by Google</p>
             <p class="text-sm text-gray-500">Coursera</p>
           </div>
-          
+
           <div class="bg-gray-100 text-black rounded-md p-4 shadow">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/36px-Google_%22G%22_logo.svg.png?20230822192911" class="h-6 mb-2" alt="Kaggle">
             <p class="font-semibold">C#</p>
             <p class="text-sm text-gray-500">Learn Microsoft</p>
           </div>
-          
+
           <div class="bg-gray-100 text-black rounded-md p-4 shadow">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png" class="h-6 mb-2" alt="AWS">
             <p class="font-semibold">MYSQL</p>
             <p class="text-sm text-gray-500">W3schools</p>
           </div>
-          
-
-
-      </div>
-    </section>
-
+        </div>
+      </section>
+    </div>
   </body>
 </html>
